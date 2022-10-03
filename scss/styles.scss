@@ -37,3 +37,108 @@
 
 /* Mise en page
    ========================================================================== */
+
+.conteneur {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  color: var(--couleur-texte);
+  font-family:'roboto light', sans-serif;
+}
+
+.entete{
+  background-color: #000;
+}
+
+.fil_ariane{
+  color:white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+
+.nav_list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+
+}
+.nav__list-item{
+  margin: 20px;
+  font-size: 1.6rem;
+padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+
+  &:first-of-type{
+    background-color:#191A1B;
+    border-color: white;
+  }
+
+  &:last-of-type{
+    background-color: #4C5FD5;
+  }
+}
+
+.nav__link{
+  color:white;
+  text-decoration: none;
+}
+
+/* ENTETE RECHERCHE */
+
+.haut_de_page{
+  background-color: var(--couleur-secondaire);
+}
+.h1{
+  text-align: center;
+  font-size: 5rem;
+}
+form{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.div_hdp{
+  padding:150px;
+}
+
+/* CORP */
+
+
+.boite {
+padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 1.4rem;
+  img {
+    width: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.nav_footer{
+  color: white;
+  background-color: black;
+  padding: 50px;
+  margin-top: 50px ;
+}
+
+.list_ul{
+  padding:0;
+  list-style: none;
+}
+

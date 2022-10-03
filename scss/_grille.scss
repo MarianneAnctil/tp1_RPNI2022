@@ -1,0 +1,66 @@
+.grille1 {
+  display:grid;
+  grid-template-columns: 6fr 1fr 6fr;
+  position:relative;
+  grid-template-areas:
+    "a . d"
+    "b . e"
+    "c . f";
+}
+
+.a{
+  grid-area: a;
+  position:relative;
+}
+.b{
+  grid-area: b;
+  position:relative;
+}
+.c{
+  grid-area: c;
+  position:relative;
+}
+.d{
+  grid-area: d;
+  position:relative;
+}
+.e{
+  grid-area: e;
+  position:relative;
+}
+.f{
+  grid-area: f;
+  position:relative;
+}
+
+.grille2 {
+  display:grid;
+  grid-template-columns: 1fr 2fr 3fr 2fr 3fr 2fr 3fr 2fr 3fr 3fr 2fr;
+  grid-template-rows:  auto 50px auto ;
+  position:relative;
+  grid-template-areas:
+  ". g . h . i . j . . ."
+  ". g . h . i . j . k ."
+  ". . . . . . . . . k .";
+}
+
+.g{
+  grid-area: g;
+  position:relative;
+}
+.h{
+  grid-area: h;
+  position:relative;
+}
+.i{
+  grid-area: i;
+  position:relative;
+}
+.j{
+  grid-area: j;
+  position:relative;
+}
+.k{
+  grid-area: k;
+  position:relative;
+}
