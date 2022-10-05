@@ -454,7 +454,7 @@ abbr[title]:hover {
 
 .grille2 {
   display: grid;
-  grid-template-columns: 1fr 2fr 3fr 2fr 3fr 2fr 3fr 2fr 3fr 3fr 2fr;
+  grid-template-columns: 1fr 2fr 100px 2fr 100px 2fr 100px 2fr 50px 2fr 1fr;
   grid-template-rows: auto 50px auto;
   position: relative;
   grid-template-areas: ". g . h . i . j . . ." ". g . h . i . j . k ." ". . . . . . . . . k .";
@@ -533,6 +533,17 @@ body {
   text-decoration: none;
 }
 
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo_fil {
+  padding-bottom: 30px;
+}
+
 /* ENTETE RECHERCHE */
 .haut_de_page {
   background-color: var(--couleur-secondaire);
@@ -573,6 +584,14 @@ form {
 .list_ul {
   padding: 0;
   list-style: none;
+}
+
+.list_item {
+  padding: 5px 0 5px 0;
+}
+
+.copyright {
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=styles.css.map */

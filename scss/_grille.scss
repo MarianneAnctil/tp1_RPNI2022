@@ -35,7 +35,7 @@
 
 .grille2 {
   display:grid;
-  grid-template-columns: 1fr 2fr 3fr 2fr 3fr 2fr 3fr 2fr 3fr 3fr 2fr;
+  grid-template-columns: 1fr 2fr 100px 2fr 100px 2fr 100px 2fr 50px 2fr 1fr;
   grid-template-rows:  auto 50px auto ;
   position:relative;
   grid-template-areas:

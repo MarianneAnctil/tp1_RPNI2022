@@ -87,6 +87,18 @@ padding: 10px 25px 10px 25px;
   text-decoration: none;
 }
 
+
+.navigation{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo_fil{
+  padding-bottom: 30px;
+}
+
 /* ENTETE RECHERCHE */
 
 .haut_de_page{
@@ -140,5 +152,12 @@ padding-bottom: 50px;
 .list_ul{
   padding:0;
   list-style: none;
+}
+.list_item{
+  padding: 5px 0 5px 0;
+}
+
+.copyright{
+  font-size: 1.2em;
 }
 
