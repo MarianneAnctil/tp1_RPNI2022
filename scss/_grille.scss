@@ -1,11 +1,12 @@
 .grille1 {
   display:grid;
-  grid-template-columns: 6fr 1fr 6fr;
+  grid-template-columns: 2fr 6fr 1fr  2fr 6fr;
+  grid-template-rows:  auto auto auto ;
   position:relative;
   grid-template-areas:
-    "a . d"
-    "b . e"
-    "c . f";
+    "u a . x d"
+    "v b . y e"
+    "w c . z f";
 }
 
 .a{
@@ -30,6 +31,31 @@
 }
 .f{
   grid-area: f;
+  position:relative;
+}
+
+.u{
+  grid-area: u;
+  position:relative;
+}
+.v{
+  grid-area: v;
+  position:relative;
+}
+.w{
+  grid-area: w;
+  position:relative;
+}
+.y{
+  grid-area: y;
+  position:relative;
+}
+.x{
+   grid-area: x;
+   position:relative;
+ }
+.z{
+  grid-area: z;
   position:relative;
 }
 

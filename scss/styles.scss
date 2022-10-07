@@ -75,10 +75,18 @@ padding: 10px 25px 10px 25px;
   &:first-of-type{
     background-color:#191A1B;
     border-color: white;
+
+    &:hover{
+      background-color: #2c2d2d;
+    }
   }
 
   &:last-of-type{
     background-color: #4C5FD5;
+
+    &:hover{
+      background-color: #6676e7;
+    }
   }
 }
 
@@ -124,18 +132,18 @@ form{
 padding-bottom: 50px;
   padding-top: 50px;
   font-size: 1.4rem;
-  img {
-    width: 50px;
-  }
+}
+.boite_img {
+  width: 100px;
+  padding-top: 130px;
 }
 
-
-
-
-
-
-
-
+.lien_texte{
+  color: #4a4d68;
+  &:hover{
+    color: #7c7ea1;
+  }
+}
 
 
 
@@ -159,5 +167,9 @@ padding-bottom: 50px;
 
 .copyright{
   font-size: 1.2em;
+}
+
+.list_lien:hover{
+  color:#7c7ea1;
 }
 
